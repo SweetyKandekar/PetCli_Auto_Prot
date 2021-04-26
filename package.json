@@ -1,0 +1,39 @@
+{
+  "name": "protrademo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "protractor Ts2JsConvert/config.js",
+    "prestart": "C:/Users/Lenovo/Documents/Proj/ProtraDemo/node_modules/.bin/webdriver-manager update",
+    "start": "C:/Users/Lenovo/Documents/Proj/ProtraDemo/node_modules/.bin/webdriver-manager start",
+    "protractor": "C:/Users/Lenovo/Documents/Proj/ProtraDemo/node_modules/protracto/built/cli.js",
+    "clean": "C:/Users/Lenovo/Documents/Proj/ProtraDemo/node_modules/.bin/webdriver-manager clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "author": "Tapasya",
+  "license": "ISC",
+  "dependencies": {
+    "@typed/hashmap": "^1.0.1",
+    "@types/jasmine": "^3.4.0",
+    "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^12.7.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "~7.1.1",
+    "chai-sorted": "^0.2.0",
+    "cucumber": "^5.1.0",
+    "jasmine": "^3.4.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "^7.0.0",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.3.0",
+    "log4js": "6.3.0",
+    "protractor-cucumber-framework": "^6.1.3"
+  }
+}

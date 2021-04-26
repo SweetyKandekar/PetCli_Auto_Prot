@@ -1,0 +1,101 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validtating Petclinic Functionality",
+    "line": 1,
+    "id": "validtating-petclinic-functionality",
+    "tags": [],
+    "uri": "feature\\AddOwner.feature",
+    "elements": [
+      {
+        "id": "validtating-petclinic-functionality;add-new-owner-functionality-testing",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add New Owner functionality testing",
+        "tags": [
+          {
+            "name": "@Ownervalidation",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Navigate to Petclinic Home page and Verify HomePage Title",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user Clicks on OWNERS dropdown select Add New option from owners dropdown",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "verify Title",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "provide vaild owner details as \"Protractor\" \"Test\" \"United\" \"Kingdom\" \"977546546\"",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click on Add Owner",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "verify whether user is successfull added new owner or not",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "also check Back button in New Owner page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
